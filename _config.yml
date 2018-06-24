@@ -15,6 +15,9 @@ plugins:
 
 google_analytics: UA-121310022-1
 
+disqus:
+  shortname: littlebit-me
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
