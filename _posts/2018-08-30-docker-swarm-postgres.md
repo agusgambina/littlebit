@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting up PostgreSQL database as a service in Docker Swarm"
-date:   2018-07-16 09:40:00 -0300
+date:   2018-08-30 18:40:00 -0300
 categories: jekyll init
 comments: true
 ---
