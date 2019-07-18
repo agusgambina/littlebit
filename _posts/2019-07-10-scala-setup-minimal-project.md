@@ -19,7 +19,7 @@ This post explain how to create a minimal project for Scala, with ScalaTest Libr
 * Java 8 JDK
 
 ```bash
-javac --version
+javac -version
 ```
 
 * sbt
