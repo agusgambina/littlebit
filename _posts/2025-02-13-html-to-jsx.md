@@ -20,7 +20,7 @@ comments: true
 
 5. In-line styles are provided as objects
 
-Further Information
+## Further Information
 
 * [Stephen Grider's Modern React and Redux Course](https://www.udemy.com/course/react-redux)
 
