@@ -31,6 +31,7 @@ GEM
     dnsruby (1.72.3)
       base64 (~> 0.2.0)
       simpleidn (~> 0.2.1)
+    dotenv (3.1.7)
     drb (2.2.1)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
@@ -45,6 +46,8 @@ GEM
       logger
     faraday-net_http (3.4.0)
       net-http (>= 0.5.0)
+    faraday-retry (2.2.1)
+      faraday (~> 2.0)
     ffi (1.17.1-aarch64-linux-gnu)
     ffi (1.17.1-aarch64-linux-musl)
     ffi (1.17.1-arm-linux-gnu)
@@ -314,6 +317,8 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  dotenv
+  faraday-retry
   github-pages
   jekyll (~> 3.10.0)
   jekyll-feed (~> 0.6)

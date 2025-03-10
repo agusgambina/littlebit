@@ -22,5 +22,6 @@ comments: true
 
 ## Further Information
 
+* [Cheat Sheet](https://jsx-notes.vercel.app/)
 * [Stephen Grider's Modern React and Redux Course](https://www.udemy.com/course/react-redux)
 
