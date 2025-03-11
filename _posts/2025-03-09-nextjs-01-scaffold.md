@@ -102,4 +102,13 @@ Then update your `.eslintrc` to include Prettier
   ]
 } 
 ```
+## Add the NodeJS version
 
+To ensure consistent NodeJS versions across my projects, I always include an `.nvmrc` file. This file specifies the exact version required, simplifying development and collaboration.
+
+```
+# .nvmrc
+v22.14.0
+```
+
+Implementing this provides dual benefits: it functions as real-time documentation for the project's requirement, and it automates the NodeJS version selection via a bash script when changing directories.
