@@ -6,9 +6,7 @@ categories: react init
 comments: true
 ---
 
-# NextJS App
-
-## Login
+# Login
 
 To implement a simple username/password login system for your Next.js 15 application, create several files to handle authentication, routing, and the login interface.
 
@@ -20,9 +18,9 @@ Here's what we need to build:
 4. [Auth utilities](#auth-utilities)
 
 
-### Authentication context/provider
+# Authentication context/provider
 
-#### Create an authentication utility file
+## Create an authentication utility file
 
 ```
 // src/lib/auth.ts
@@ -61,9 +59,9 @@ export function logout(): void {
 }
 ```
 
-### Login page
+# Login page
 
-#### Create a login page
+## Create a login page
 
 ```
 // src/components/AuthProvider.tsx
@@ -129,9 +127,9 @@ export function useAuth() {
 }
 ```
 
-### Middleware for protected routes
+# Middleware for protected routes
 
-#### Update the root layout to include the AuthProvider
+## Update the root layout to include the AuthProvider
 
 ```
 // src/app/login/page.tsx
@@ -236,7 +234,7 @@ export default function Login() {
 } 
 ```
 
-#### Update the main page to include logout functionality
+## Update the main page to include logout functionality
 
 ```
 // src/app/page.tsx
@@ -375,9 +373,9 @@ export default function Home() {
 }
 ```
 
-### Auth utilities
+# Auth utilities
 
-#### Create middleware for route protection
+## Create middleware for route protection
 
 ```
 // src/app/page.tsx

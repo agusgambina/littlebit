@@ -1,14 +1,12 @@
 ---
 layout: post
-title:  "NextJS App"
+title:  "NextJS Scaffold"
 date:   2025-03-09 23:00:00 -0300
 categories: react init
 comments: true
 ---
 
-# NextJS App
-
-## Initialize the project
+# Initialize the project
 
 To create a NextJS app, step on the parent folder where your project will reside and execute
 
@@ -38,15 +36,15 @@ Answer `y`, and the following questionnaire will appear. Answer as you wish
 
 A new folder with the `your-project-name` will be created.
 
-## After initializing the project
+# After initializing the project
 
 After creating the app I do the following
 
-### Create a gitignore
+## Create a gitignore
 
 I supplement my project's `.gitignore` file with standard exclusions to prevent unnecessary files from being tracked. To do this, I utilize the `.gitignore` generator at https://www.toptal.com/developers/gitignore/. I search for common operating system and environment-specific entries like Windows, Linux, OSX, and dotenv, and then append the generated rules to my project's .gitignore file.
 
-### Add Prettier
+## Add Prettier
 
 The first thing to do is to install Prettier as a dev dependency
 
