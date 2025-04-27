@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting up MongoDB as a service in Docker Swarm"
 date:   2018-09-10 16:00:00 -0300
-categories: jekyll init
+categories: docker
 comments: true
 ---
 

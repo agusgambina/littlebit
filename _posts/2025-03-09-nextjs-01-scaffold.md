@@ -2,7 +2,7 @@
 layout: post
 title:  "NextJS Scaffold"
 date:   2025-03-09 23:00:00 -0300
-categories: react init
+categories: nextjs
 comments: true
 ---
 

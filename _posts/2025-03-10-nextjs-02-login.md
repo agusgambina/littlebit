@@ -2,7 +2,7 @@
 layout: post
 title:  "NextJS Login"
 date:   2025-03-10 08:00:00 -0300
-categories: react init
+categories: nextjs
 comments: true
 ---
 

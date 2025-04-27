@@ -2,7 +2,7 @@
 layout: post
 title:  "Phoenix Bird!"
 date:   2024-12-04 23:58:00 -0300
-categories: jekyll init
+categories: jekyll
 comments: true
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "NextJS Migrating to Database Authentication with Prisma"
 date:   2025-03-11 08:00:00 -0300
-categories: react init
+categories: nextjs
 comments: true
 ---
 

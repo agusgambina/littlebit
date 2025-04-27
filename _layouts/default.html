@@ -16,6 +16,11 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
+        <nav class="main-nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/categories/' | relative_url }}">Categories</a>
+        </nav>
+
         <section id="downloads">
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
@@ -42,5 +47,21 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+    <style>
+    .main-nav {
+      margin: 1em 0;
+    }
+
+    .main-nav a {
+      margin-right: 1em;
+      color: #0366d6;
+      text-decoration: none;
+    }
+
+    .main-nav a:hover {
+      text-decoration: underline;
+    }
+    </style>
   </body>
 </html>

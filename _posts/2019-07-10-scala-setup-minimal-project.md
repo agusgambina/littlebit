@@ -2,7 +2,7 @@
 layout: post
 title:  "Scala setup a Minimal Project"
 date:   2019-07-10 07:00:00 -0300
-categories: scala init
+categories: scala
 comments: true
 ---
 

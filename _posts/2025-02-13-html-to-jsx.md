@@ -2,7 +2,7 @@
 layout: post
 title:  "HTML to JSX"
 date:   2025-02-13 23:14:00 -0300
-categories: react init
+categories: react
 comments: true
 ---
 

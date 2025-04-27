@@ -2,7 +2,7 @@
 layout: post
 title:  "Hello World!"
 date:   2018-07-16 09:40:00 -0300
-categories: jekyll init
+categories: jekyll
 comments: true
 ---
 
